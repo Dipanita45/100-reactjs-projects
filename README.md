@@ -13,7 +13,7 @@ This carefully curated collection helps you learn and practice frontend developm
 
 ---
 
-## 📚 About This Repository
+## About This Repository
 
 Inside this repo, you’ll find:
 
@@ -24,21 +24,21 @@ Inside this repo, you’ll find:
 
 Projects cover a wide range of use cases and concepts, including:
 
-- 🧠 State & Props
-- 🔁 Lifecycle & useEffect
-- 💡 Conditional Rendering
-- 🧰 Custom Hooks
-- 🎨 UI/UX Enhancements with Tailwind CSS
-- ⚡ Animations with Framer Motion
-- 🔗 API Fetching with `fetch` or `axios`
-- 📦 Component Reusability & File Structure Best Practices
-- 🗂️ LocalStorage, JSON, SVG, Theme Toggles & More
+- State & Props
+- Lifecycle & useEffect
+- Conditional Rendering
+- Custom Hooks
+- UI/UX Enhancements with Tailwind CSS
+- Animations with Framer Motion
+- API Fetching with `fetch` or `axios`
+- Component Reusability & File Structure Best Practices
+- LocalStorage, JSON, SVG, Theme Toggles & More
 
 Each project lives in its own folder with `README.md`, source files, and full working UI.
 
 ---
 
-## 💡 Why Build React Projects?
+## Why Build React Projects?
 
 Learning React by building projects is the **fastest** way to get better. Here's why:
 
@@ -49,7 +49,7 @@ Learning React by building projects is the **fastest** way to get better. Here's
 
 ---
 
-## 🛠️ How to Use This Repository
+## How to Use This Repository
 
 Follow these steps to get started:
 
@@ -63,74 +63,55 @@ git clone https://github.com/Vaibhav-kesarwani/100-reactjs-projects.git
 cd 100-reactjs-projects
 ```
 
-#### Step 3: Open any project folder
+#### Step 3: Install Dependencies
 ```bash
-cd 100-reactjs-projects/000_Hello-World/
+pnpm install
 ```
 
-#### Step 4: Install Dependencies
+#### Step 4: Start the Development Server
 ```bash
-npm install
+pnpm  dev
 ```
-
-#### Step 5: Start the Development Server
-```bash
-npm run dev
-```
-- Open http://localhost:5173 in your browser to view the app.
+- Open http://localhost:3000 in your browser to view the app.
 
 <br />
 You can also explore and deploy the live version from the [official website]().
 
 ---
 
-## 📝 Project Preview
-
-| #   | Project Name            | View Code                                                                                                                 |
-| --- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------  |
-| 01  | BMI Calculator          | [GitHub](https://github.com/Vaibhav-kesarwani/100-reactjs-projects/tree/main/001_BMI-Calculator)                           |
-| 02  | Bank KYC form      | [GitHub](https://github.com/Vaibhav-kesarwani/100-reactjs-projects/tree/main/002_Bank-KYC-Form)                   |
-| 03  | Blob Generator           | [GitHub](https://github.com/Vaibhav-kesarwani/100-reactjs-projects/tree/main/003_Blob_Generator)                       |
-| 04  | Blood Donation          | [GitHub](https://github.com/Vaibhav-kesarwani/100-reactjs-projects/tree/main/004_Blood_Donation_Website/client)                      |
-| 05  | Christmas Diorama   | [GitHub](https://github.com/Vaibhav-kesarwani/100-reactjs-projects/tree/main/005_Christmas%20Diorama)               |
-| 06  | Color Pallete Generator  | [GitHub](https://github.com/Vaibhav-kesarwani/100-reactjs-projects/tree/main/006_Color-Palette-Generator)              |
-| ... | ...                     | [View All Projects »](https://github.com/Vaibhav-kesarwani/100-reactjs-projects)                                      |
-
----
-
-## 🧰 Tech Stack
+## Tech Stack
 
 Each project in this repository is crafted using modern, lightweight tools and libraries to help you build real-world, production-grade React applications. Here's what powers them:
 
-- ⚛️ **React.js (18+)** – The heart of every project. We use functional components, hooks (`useState`, `useEffect`, etc.), and modern patterns to manage state and UI logic.
+- **React.js (18+)** – The heart of every project. We use functional components, hooks (`useState`, `useEffect`, etc.), and modern patterns to manage state and UI logic.
 
-- 🛠️ **Vite / CRA (Create React App)** – Most projects are scaffolded using [Vite](https://vitejs.dev) for lightning-fast development and hot module replacement. Some may use CRA as well.
+- **Vite / CRA (Create React App)** – Most projects are scaffolded using [Vite](https://vitejs.dev) for lightning-fast development and hot module replacement. Some may use CRA as well.
 
-- 🎨 **Tailwind CSS** *(optional)* – Utility-first CSS framework used in many projects for rapid, responsive, and consistent UI styling.
+- **Tailwind CSS** *(optional)* – Utility-first CSS framework used in many projects for rapid, responsive, and consistent UI styling.
 
-- 🎞 **Framer Motion** *(in UI/UX projects)* – For delightful animations and smooth UI transitions without the complexity of traditional CSS keyframes.
+- **Framer Motion** *(in UI/UX projects)* – For delightful animations and smooth UI transitions without the complexity of traditional CSS keyframes.
 
-- 🧩 **Lucide React / Heroicons** – Modern, open-source SVG icon libraries used to enhance UI with accessible and scalable icons.
+- **Lucide React / Heroicons** – Modern, open-source SVG icon libraries used to enhance UI with accessible and scalable icons.
 
-- 🌐 **Fetch API / Axios** – For making HTTP requests and handling API integration in real-world applications like weather apps, quote generators, etc.
+- **Fetch API / Axios** – For making HTTP requests and handling API integration in real-world applications like weather apps, quote generators, etc.
 
-- 💾 **LocalStorage / SessionStorage** – To persist data across sessions, for apps like to-do lists, settings managers, and form savers.
+- **LocalStorage / SessionStorage** – To persist data across sessions, for apps like to-do lists, settings managers, and form savers.
 
-- 🧠 **Custom Hooks** – Encapsulating reusable logic like theme toggles, fetch utilities, debounced inputs, clipboard handling, etc.
+- **Custom Hooks** – Encapsulating reusable logic like theme toggles, fetch utilities, debounced inputs, clipboard handling, etc.
 
-- 📦 **Modular Folder Structure** – Each project follows a clean file structure:
+- **Modular Folder Structure** – Each project follows a clean file structure:
 
-- 🧪 **ESLint + Prettier** *(recommended)* – For writing consistent, error-free code with enforced code standards.
+- **ESLint + Prettier** *(recommended)* – For writing consistent, error-free code with enforced code standards.
 
-- 🔍 **DevTools & Debugging** – We encourage use of React DevTools, browser storage inspectors, and custom logs to better understand app behavior.
-
----
-
-> 🔧 **Bonus:** Many projects are `minimal` and `framework-free` to keep the learning curve low, but you'll find several `enhanced versions` using popular `libraries` as optional upgrades.
+- **DevTools & Debugging** – We encourage use of React DevTools, browser storage inspectors, and custom logs to better understand app behavior.
 
 ---
 
-## 🤝 Contributing
+> **Bonus:** Many projects are `minimal` and `framework-free` to keep the learning curve low, but you'll find several `enhanced versions` using popular `libraries` as optional upgrades.
+
+---
+
+## Contributing
 
 Have a cool idea or want to improve an existing project? Contributions are welcome! Here's how to get involved:
 
@@ -157,33 +138,33 @@ Please follow the [Code of Conduct Guidelines](CODE_OF_CONDUCT.md) for a smooth 
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.  
 Feel free to use, modify, and share it. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📢 Contact
+## Contact
 
 If you have any suggestions, questions, or feedback, feel free to reach out:
 
-- 📬 **Email**: [vaibhavkesarwani100@gmail.com](mailto:vaibhavkesarwani100@gmail.com)  
-- 💼 **GitHub**: [@Vaibhav-kesarwani](https://github.com/Vaibhav-kesarwani)
-- 🔥 **Portfolio**: [vaibhav kesarwani](https://vaibhavkesarwani.vercel.app/)
+- **Email**: [vaibhavkesarwani100@gmail.com](mailto:vaibhavkesarwani100@gmail.com)  
+- **GitHub**: [@Vaibhav-kesarwani](https://github.com/Vaibhav-kesarwani)
+- **Portfolio**: [vaibhav kesarwani](https://vaibhavkesarwani.vercel.app/)
 
 ---
 
-## 🌟 Support & Share
+## Support & Share
 
 If you find this repository helpful:
 
-- ⭐ Star it on GitHub  
-- 🍴 Fork it to build your own version  
-- 📣 Share it with your developer friends and communities!
+- Star it on GitHub  
+- Fork it to build your own version  
+- Share it with your developer friends and communities!
 
 ---
 
-## 🚀 Start Building Today!
+## Start Building Today!
 
 Level up your skills by building—because the best way to learn JavaScript is by **getting your hands dirty**. Dive into the code, experiment freely, and create something awesome along the way!
