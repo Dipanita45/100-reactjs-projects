@@ -1,0 +1,37 @@
+"use client";
+
+import { useState } from "react";
+import Logo from "../utils/logo";
+import { ModeToggle } from "../utils/mode-toggle";
+import NavItems from "./nav-items";
+import NavMenu from "./nav-menu";
+import { Menu, X } from "lucide-react";
+
+export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <nav
+      className={`fixed top-4 left-1/2 z-50 w-[95%] max-w-6xl -translate-x-1/2
+      flex items-center justify-between
+      ${open ? "rounded-t-2xl" : "rounded-2xl"} md:rounded-2xl border border-border
+      bg-background/80 backdrop-blur-md
+      px-6 py-3 shadow-lg`}
+    >
+      <Logo />
+      <NavItems />
+      <div className="flex items-center justify-center gap-2">
+        <ModeToggle />
+
+        <button
+          className="md:hidden"
+          onClick={() => setOpen(!open)}
+          aria-label="Toggle Menu"
+        >
+          {open ? <X size={22} className="text-foreground/50" /> : <Menu size={22} />}
+        </button>
+      </div>
+      <NavMenu open={open} setOpen={setOpen} />
+    </nav>
+  );
+}
