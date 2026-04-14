@@ -1,16 +1,15 @@
-import { ThemeProvider } from "@/components/utils/theme-provider";
+import Container from "@/components/common/container";
+import Navbar from "@/components/common/navbar";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { ThemeProvider } from "@/components/utils/theme-provider";
 import "@/styles/globals.css";
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Outfit } from "next/font/google";
 import { Toaster } from "sonner";
-import Navbar from "@/components/common/navbar";
-import Container from "@/components/common/container";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+const fontSans = Outfit({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-sans",
 });
 
 export const metadata: Metadata = {
@@ -27,7 +26,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         suppressHydrationWarning
-        className={`${poppins.variable} antialiased font-poppins`}
+        className={`${fontSans.variable} antialiased font-poppins`}
       >
         <ThemeProvider
           attribute="class"

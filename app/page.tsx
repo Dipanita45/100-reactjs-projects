@@ -1,3 +1,9 @@
+import Hero from "@/components/hero/hero";
+
 export default function Home() {
-  return <div>home</div>;
+  return (
+    <section className="max-w-6xl">
+      <Hero />
+    </section>
+  );
 }
