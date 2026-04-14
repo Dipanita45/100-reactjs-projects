@@ -9,5 +9,5 @@ export const logoConfig: Logo = {
   logoImage: "/logo/logo.png",
   logoAlt: "React 100",
   logohref: "/",
-  name: "React-100",
+  name: "React JS",
 };

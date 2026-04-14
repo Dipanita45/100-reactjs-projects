@@ -16,7 +16,7 @@ export default function NavItems() {
           <Link
             key={index}
             href={item.href}
-            className={`text-sm font-medium
+            className={`font-medium
              ${isActive ? "text-foreground" : "text-foreground/50"}
             `}
           >
