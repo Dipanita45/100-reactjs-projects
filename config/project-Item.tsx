@@ -1,6 +1,6 @@
 import { ProjectItems } from "./projects";
 
-export const projectItemConfig : ProjectItems[] = [
+export const projectItemConfig: ProjectItems[] = [
   {
     projectName: "Todo App",
     description: "This is the todo app",
