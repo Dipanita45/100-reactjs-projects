@@ -6,6 +6,7 @@ export default function Logo() {
   return (
     <Link
       href={logoConfig.logohref}
+      target="_blank"
       className="flex items-center justify-center gap-3"
     >
       <Image
