@@ -30,7 +30,7 @@ export const heroConfig: Hero = {
   ctaButton: [
     {
       label: "Get Started",
-      href: "/",
+      href: "/dashboard",
       variant: "default",
     },
     {

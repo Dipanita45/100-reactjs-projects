@@ -7,7 +7,7 @@ import { AuroraText } from "../utils/aurora-text";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="mt-10 min-h-screen flex items-center justify-center overflow-hidden">
       <div className="relative max-w-4xl px-6 text-center">
         <div
           className="hidden md:block relative md:mb-5"
