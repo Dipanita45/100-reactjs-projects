@@ -20,7 +20,7 @@ Inside this repo, you’ll find:
 ✅ **100+ unique React projects**, organized by difficulty  
 ✅ Clean, well-structured code in every project  
 ✅ A focus on modern React practices (Hooks, Functional Components)  
-✅ Real-world use cases with reusable components and logic   
+✅ Real-world use cases with reusable components and logic
 
 Projects cover a wide range of use cases and concepts, including:
 
@@ -54,28 +54,33 @@ Learning React by building projects is the **fastest** way to get better. Here's
 Follow these steps to get started:
 
 #### Step 1: Clone the repository
+
 ```bash
 git clone https://github.com/Vaibhav-kesarwani/100-reactjs-projects.git
 ```
 
 #### Step 2: Navigate into the directory
+
 ```bash
 cd 100-reactjs-projects
 ```
 
 #### Step 3: Install Dependencies
+
 ```bash
 pnpm install
 ```
 
 #### Step 4: Start the Development Server
+
 ```bash
 pnpm  dev
 ```
+
 - Open http://localhost:3000 in your browser to view the app.
 
 <br />
-You can also explore and deploy the live version from the [official website]().
+You can also explore and deploy the live version from the [official website](https://100-reactjs-projects.vercel.app/).
 
 ---
 
@@ -87,9 +92,9 @@ Each project in this repository is crafted using modern, lightweight tools and l
 
 - **Vite / CRA (Create React App)** – Most projects are scaffolded using [Vite](https://vitejs.dev) for lightning-fast development and hot module replacement. Some may use CRA as well.
 
-- **Tailwind CSS** *(optional)* – Utility-first CSS framework used in many projects for rapid, responsive, and consistent UI styling.
+- **Tailwind CSS** _(optional)_ – Utility-first CSS framework used in many projects for rapid, responsive, and consistent UI styling.
 
-- **Framer Motion** *(in UI/UX projects)* – For delightful animations and smooth UI transitions without the complexity of traditional CSS keyframes.
+- **Framer Motion** _(in UI/UX projects)_ – For delightful animations and smooth UI transitions without the complexity of traditional CSS keyframes.
 
 - **Lucide React / Heroicons** – Modern, open-source SVG icon libraries used to enhance UI with accessible and scalable icons.
 
@@ -101,7 +106,7 @@ Each project in this repository is crafted using modern, lightweight tools and l
 
 - **Modular Folder Structure** – Each project follows a clean file structure:
 
-- **ESLint + Prettier** *(recommended)* – For writing consistent, error-free code with enforced code standards.
+- **ESLint + Prettier** _(recommended)_ – For writing consistent, error-free code with enforced code standards.
 
 - **DevTools & Debugging** – We encourage use of React DevTools, browser storage inspectors, and custom logs to better understand app behavior.
 
@@ -118,23 +123,26 @@ Have a cool idea or want to improve an existing project? Contributions are welco
 #### Step 1: Fork the repository
 
 #### Step 2: Create a feature branch
+
 ```bash
 git checkout -b feature/your-feature-name
 ```
 
 #### Step 3: Commit your changes
+
 ```bash
 git commit -m "Add new feature or fix"
 ```
 
 #### Step 4: Push to your branch
+
 ```bash
 git push origin feature/your-feature-name
 ```
 
 #### Step 5: Open a Pull Request
 
-Please follow the [Code of Conduct Guidelines](CODE_OF_CONDUCT.md) for a smooth review process.
+Please follow the [Contribution.md](contribution.md) file for a smooth review process.
 
 ---
 
@@ -149,7 +157,7 @@ Feel free to use, modify, and share it. See the [LICENSE](LICENSE) file for deta
 
 If you have any suggestions, questions, or feedback, feel free to reach out:
 
-- **Email**: [vaibhavkesarwani100@gmail.com](mailto:vaibhavkesarwani100@gmail.com)  
+- **Email**: [vaibhavkesarwani100@gmail.com](mailto:vaibhavkesarwani100@gmail.com)
 - **GitHub**: [@Vaibhav-kesarwani](https://github.com/Vaibhav-kesarwani)
 - **Portfolio**: [vaibhav kesarwani](https://vaibhavkesarwani.vercel.app/)
 
@@ -159,8 +167,8 @@ If you have any suggestions, questions, or feedback, feel free to reach out:
 
 If you find this repository helpful:
 
-- Star it on GitHub  
-- Fork it to build your own version  
+- Star it on GitHub
+- Fork it to build your own version
 - Share it with your developer friends and communities!
 
 ---
