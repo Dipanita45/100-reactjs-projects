@@ -6,6 +6,7 @@ import { ModeToggle } from "../utils/mode-toggle";
 import NavItems from "./nav-items";
 import NavMenu from "./nav-menu";
 import { Menu, X } from "lucide-react";
+import GitHubStarsAnimation from "../utils/github-star-animation";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -20,15 +21,28 @@ export default function Navbar() {
     >
       <Logo />
       <NavItems />
-      <div className="flex items-center justify-center gap-2">
+      <div className="flex items-center justify-center gap-2 md:gap-5">
         <ModeToggle />
+
+        <div className="border border-border p-2 rounded-lg">
+          <GitHubStarsAnimation
+            maxAvatars={3}
+            owner="Vaibhav-kesarwani"
+            repo="100-reactjs-projects"
+            showAvatars={false}
+          />
+        </div>
 
         <button
           className="md:hidden"
           onClick={() => setOpen(!open)}
           aria-label="Toggle Menu"
         >
-          {open ? <X size={22} className="text-foreground/50" /> : <Menu size={22} />}
+          {open ? (
+            <X size={22} className="text-foreground/50" />
+          ) : (
+            <Menu size={22} />
+          )}
         </button>
       </div>
       <NavMenu open={open} setOpen={setOpen} />
