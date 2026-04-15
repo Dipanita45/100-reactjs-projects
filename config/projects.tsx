@@ -5,8 +5,8 @@ export interface ProjectItems {
   description: string;
   projectImage: string;
   githubLink: string;
-  liveLink: string;
-  ytLink: string;
+  liveLink?: string;
+  ytLink?: string;
   techStack: string[];
 }
 

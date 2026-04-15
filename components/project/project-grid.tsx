@@ -38,7 +38,7 @@ export default function ProjectGrid() {
             >
               <div className="relative aspect-video overflow-hidden">
                 <Image
-                  src={item.projectImage}
+                  src={`/projects/${item.projectImage}`}
                   alt={item.projectName}
                   fill
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
