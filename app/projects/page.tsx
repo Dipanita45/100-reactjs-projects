@@ -1,6 +1,9 @@
 import ProjectGrid from "@/components/project/project-grid";
 import { AuroraText } from "@/components/utils/aurora-text";
+import { generateMetadata as getMetadata } from "@/config/meta";
 import { projectConfig } from "@/config/projects";
+
+export const metadata = getMetadata("/projects");
 
 export default function Projects() {
   return (
