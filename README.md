@@ -80,7 +80,8 @@ pnpm  dev
 - Open http://localhost:3000 in your browser to view the app.
 
 <br />
-You can also explore and deploy the live version from the [official website](https://100-reactjs-projects.vercel.app/).
+
+You can also explore and deploy the live version from the [Official Website](https://github.com/Vaibhav-kesarwani/100-reactjs-projects).
 
 ---
 
