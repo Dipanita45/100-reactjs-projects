@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className="flex items-center justify-center gap-2 md:gap-5">
         <ModeToggle />
 
-        <div className="border border-border p-2 rounded-lg">
+        <div className="hidden md:block border border-border p-2 rounded-lg">
           <GitHubStarsAnimation
             maxAvatars={3}
             owner="Vaibhav-kesarwani"
