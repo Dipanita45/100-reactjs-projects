@@ -174,6 +174,18 @@ If you find this repository helpful:
 
 ---
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=Vaibhav-kesarwani%2F100-reactjs-projects&type=timeline&logscale=&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Vaibhav-kesarwani/100-reactjs-projects&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Vaibhav-kesarwani/100-reactjs-projects&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Vaibhav-kesarwani/100-reactjs-projects&type=timeline&legend=top-left" />
+ </picture>
+</a>
+
+---
+
 ## Start Building Today!
 
 Level up your skills by building—because the best way to learn JavaScript is by **getting your hands dirty**. Dive into the code, experiment freely, and create something awesome along the way!
