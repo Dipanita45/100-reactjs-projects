@@ -115,6 +115,11 @@ export function generateMetadata(pathname: string) {
     metadataBase: new URL(siteConfig.url),
     title: pageMeta.title,
     description: pageMeta.description,
+    icons: {
+      icon: "/logo/logo.png",
+      shortcut: "/logo/logo.png",
+      apple: "/logo/logo.png",
+    },
     keywords: pageMeta.keywords?.join(", "),
     authors: [{ name: siteConfig.author.name }],
     creator: siteConfig.author.name,
