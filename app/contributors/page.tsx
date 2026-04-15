@@ -1,6 +1,9 @@
 import ContributorGrid from "@/components/contributors/contributor-grid";
 import { AuroraText } from "@/components/utils/aurora-text";
 import { contributorsConfig } from "@/config/contributors";
+import { generateMetadata as getMetadata } from "@/config/meta";
+
+export const metadata = getMetadata("/contributors");
 
 export default async function Contributors() {
   return (
