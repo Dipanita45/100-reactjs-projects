@@ -7,6 +7,7 @@ import NavItems from "./nav-items";
 import NavMenu from "./nav-menu";
 import { Menu, X } from "lucide-react";
 import GitHubStarsAnimation from "../utils/github-star-animation";
+import Link from "next/link";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -24,14 +25,18 @@ export default function Navbar() {
       <div className="flex items-center justify-center gap-2 md:gap-5">
         <ModeToggle />
 
-        <div className="hidden md:block border border-border p-2 rounded-lg">
+        <Link
+          href={"https://github.com/Vaibhav-kesarwani/100-reactjs-projects"}
+          target="_blank"
+          className="hidden md:block border border-border p-2 rounded-lg"
+        >
           <GitHubStarsAnimation
             maxAvatars={3}
             owner="Vaibhav-kesarwani"
             repo="100-reactjs-projects"
             showAvatars={false}
           />
-        </div>
+        </Link>
 
         <button
           className="md:hidden"
