@@ -13,6 +13,16 @@ This carefully curated collection helps you learn and practice frontend developm
 
 ---
 
+## Part of Open Source Program
+
+### Nexus Spring of Code (NSoC'26)
+
+This repository is proudly a part of **Nexus Spring of Code (NSoC'26)**, an open-source initiative that fosters innovation, collaboration, and learning among developers worldwide.
+
+Contributors are welcome to explore, enhance, and contribute to the project as part of this program.
+
+---
+
 ## About This Repository
 
 Inside this repo, you’ll find:
