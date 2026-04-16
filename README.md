@@ -153,7 +153,7 @@ git push origin feature/your-feature-name
 
 #### Step 5: Open a Pull Request
 
-Please follow the [Contribution.md](contribution.md) file for a smooth review process.
+Please follow the [Contribution.md](contributing.md) file for a smooth review process.
 
 ---
 
