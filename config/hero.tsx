@@ -17,6 +17,15 @@ interface Hero {
     icon?: React.ElementType;
     description: string;
   }[];
+  categoryTitle: {
+    highlight: string;
+    normal: string;
+  };
+  categoryCards: {
+    titleLine1: string;
+    titleLine2: string;
+    description: string;
+  }[];
 }
 
 export const heroConfig: Hero = {
@@ -52,6 +61,27 @@ export const heroConfig: Hero = {
       label: "4.9",
       description: "Average Stars",
       icon: FaStar,
+    },
+  ],
+  categoryTitle : {
+    highlight : "Project",
+    normal : "categories"
+  },
+  categoryCards: [
+    {
+      titleLine1: "Beginner",
+      titleLine2: "Projects",
+      description: "Start your journey with fundamental React concepts, basic components, and simple state management.",
+    },
+    {
+      titleLine1: "Intermediate",
+      titleLine2: "Projects",
+      description: "Deepen your skills with API integrations, complex hooks, and custom routing mechanisms.",
+    },
+    {
+      titleLine1: "Advance",
+      titleLine2: "Projects",
+      description: "Master React with full-stack integrations, performance optimization, and advanced architectures.",
     },
   ],
 };
