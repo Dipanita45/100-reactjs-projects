@@ -7,10 +7,10 @@ We welcome improvements, new project additions, UI/UX enhancements, and bug fixe
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Contributing to 100 ReactJS Projects](#contributing-to-100-reactjs-projects)
-  - [📌 Table of Contents](#-table-of-contents)
+  - [Table of Contents](#-table-of-contents)
   - [Code of Conduct](#code-of-conduct)
   - [How You Can Contribute](#how-you-can-contribute)
   - [Getting Started](#getting-started)
