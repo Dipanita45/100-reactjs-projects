@@ -71,6 +71,37 @@ export default function Hero() {
             );
           })}
         </div>
+
+        <div className="mt-20 flex flex-col items-center justify-center text-center">
+          <h2 className="text-5xl font-bold tracking-tight sm:text-6xl">
+            <AuroraText>{heroConfig.categoryTitle.highlight}</AuroraText>
+            <span className="text-black dark:text-white ml-4">
+              {heroConfig.categoryTitle.normal}
+            </span>
+          </h2>
+        </div>
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 w-full text-center">
+          {heroConfig.categoryCards.map((card, index) => (
+            <div 
+              key={index} 
+              className="group relative rounded-2xl p-[2px] transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+            >
+              <div className="absolute inset-0 bg-gradient-to-r from-[#22d3ee] via-[#6366f1] to-[#ec4899] rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="relative h-48 bg-background border border-border group-hover:border-transparent rounded-[14px] flex items-center justify-center p-6 overflow-hidden">
+                <div className="absolute flex flex-col items-center justify-center transition-all duration-500 group-hover:opacity-0 group-hover:scale-90">
+                  <span className="text-2xl md:text-3xl font-bold text-black dark:text-white">{card.titleLine1}</span>
+                  <span className="text-2xl md:text-3xl font-bold text-black dark:text-white">{card.titleLine2}</span>
+                </div>
+                <div className="absolute flex flex-col items-center justify-center opacity-0 scale-110 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100 px-2">
+                  <p className="text-sm md:text-base text-foreground/90 font-medium">
+                    {card.description}
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
