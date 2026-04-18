@@ -1,17 +1,50 @@
-export default function Dashboard() {
-  return (
-    <section className="mt-20 relative flex min-h-screen items-center justify-center overflow-hidden px-4 text-center">
-      <div className="relative z-10 mx-auto max-w-5xl">
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-          Dashboard For the Developers
-        </h1>
+import { DashboardHeader } from "@/components/dashboard/header";
+import { StatCard } from "@/components/dashboard/stat-card";
+import { ActivityList } from "@/components/dashboard/activity-list";
+import { ProjectCard } from "@/components/dashboard/project-card";
+import { QuickActions } from "@/components/dashboard/quick-actions";
 
-        <p className="mt-4 md:mt-6 text-sm md:text-xl text-foreground/60 max-w-2xl mx-auto">
-          Welcome to the central hub of the 100 ReactJS Projects platform.
-          Explore curated projects, track your progress, and discover real-world
-          applications built with React and Next.js.
-        </p>
+import {
+  statsData,
+  activityData,
+  projects,
+  actions,
+} from "@/config/dashboard";
+
+export default function DashboardPage() {
+  return (
+    <div className="p-6 space-y-6">
+
+      <DashboardHeader />
+
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {statsData.map((stat: any, i: number) => (
+          <StatCard key={i} {...stat} />
+        ))}
       </div>
-    </section>
+
+      <div className="grid lg:grid-cols-3 gap-6">
+
+        <div className="lg:col-span-2 bg-card border rounded-xl p-5">
+          <h2 className="text-lg font-medium mb-4">Recent Activity</h2>
+          <ActivityList data={activityData} />
+        </div>
+
+        <div className="bg-card border rounded-xl p-5">
+          <h2 className="text-lg font-medium mb-4">Quick Actions</h2>
+          <QuickActions actions={actions} />
+        </div>
+      </div>
+
+      <div className="bg-card border rounded-xl p-5">
+        <h2 className="text-lg font-medium mb-4">Projects</h2>
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {projects.map((p: any, i: number) => (
+            <ProjectCard key={i} project={p} />
+          ))}
+        </div>
+      </div>
+    </div>
   );
 }
